@@ -27,7 +27,7 @@ function Auth() {
     } catch (error) {
       console.error("Error while onSubmit: ", error);
 
-      const {status, data} = error.response;
+      //const {status, data} = error.response;
 
       if(status === 422){
         actions.setErrors(data.errors);
