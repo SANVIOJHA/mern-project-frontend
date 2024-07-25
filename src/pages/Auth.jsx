@@ -29,9 +29,9 @@ function Auth() {
 
       //const {status, data} = error.response;
 
-      if(status === 422){
-        actions.setErrors(data.errors);
-      }
+     // if(status === 422){
+       // actions.setErrors(data.errors);
+   //   }
     }
   }
   const loginInitialValues = { email: "", password: "" };
